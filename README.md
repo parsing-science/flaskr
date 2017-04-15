@@ -10,7 +10,7 @@ git clone https://github.com/parsing-science/flaskr.git
 cd flaskr
 virtualenv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install --editable .
 export FLASK_APP=flaskr
 export FLASK_DEBUG=true
 flask initdb
